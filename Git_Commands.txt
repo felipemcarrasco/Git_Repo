@@ -1,0 +1,27 @@
+== GIT ==
+
+git init -> criar repositório
+
+git add .
+
+git commit -s -m "Mensagem"
+
+git remote add origin https://github.com/felipemcarrasco/Hello_C.git
+
+git push origin main
+
+git checkout -b temporary-branch
+
+git checkout bugfix
+
+git rebase main
+
+git rebase -i main HEAD~10
+
+git checkout feature
+git merge master
+
+git merge feature master -> mergeia o master dentro de feature
+
+git revert #da2hxjz3
+
